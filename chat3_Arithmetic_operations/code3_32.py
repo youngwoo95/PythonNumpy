@@ -4,14 +4,14 @@ import matplotlib.pyplot as plt
 from math import factorial
 
 x = np.linspace(-2*np.pi, 2*np.pi, 100)
-y_true = np.sin(x)
+y_true = np.cos(x)
 
 y1 = x # (100, )
-y2 = y1 - (x**3) / factorial(3)
-y3 = y2 + (x**5) / factorial(5)
-y4 = y3 - (x**7) / factorial(7)
-y5 = y4 + (x**9) / factorial(9)
-y6 = y5 - (x**11) / factorial(11)
+y2 = y1 - (x**2) / factorial(2)
+y3 = y2 + (x**4) / factorial(4)
+y4 = y3 - (x**6) / factorial(6)
+y5 = y4 + (x**8) / factorial(8)
+y6 = y5 - (x**10) / factorial(10)
 
 fig, ax = plt.subplots(figsize=(10, 10))
 ax.plot(x, y_true, color='black', zorder=10)

@@ -1,3 +1,4 @@
+'''
 import numpy as np
 
 arr = np.arange(-5, 6)
@@ -14,3 +15,16 @@ arr2 = np.arange(6).reshape(2, 3)
 print(np.positive(arr2))
 print(arr2.__pos__())
 print(+arr2)
+'''
+
+import torch
+
+arr = torch.arange(-5, 6)
+print(dir(arr))
+print(torch.positive(arr))
+print(arr.__pos__())
+print(+arr)
+
+print(torch.negative(arr))
+print(arr.__neg__())
+print(-arr)
