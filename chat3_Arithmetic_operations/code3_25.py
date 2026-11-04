@@ -35,3 +35,4 @@ ax.axvline(x=0, color='gray')
 ax.tick_params(labelsize=20)
 fig.tight_layout()
 plt.show()
+# %%

@@ -1,3 +1,4 @@
+# 넘파이
 '''
 from numpy.random import randint
 
@@ -18,6 +19,7 @@ print(f"{u % v =} / {u.__mod__(v) =}")
 
 '''
 
+# 파이토치
 import torch
 
 u = torch.randint(1, 6, (4,))

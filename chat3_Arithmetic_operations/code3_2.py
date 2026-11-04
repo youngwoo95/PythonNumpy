@@ -1,3 +1,4 @@
+# 넘파이
 '''
 import numpy as np
 
@@ -7,6 +8,8 @@ print(arr)
 print(arr.reshape(4, 3, 2))
 print(arr.reshape(4, 2, 3))
 '''
+
+# 파이토치
 import torch
 
 arr = torch.arange(24)

@@ -1,3 +1,4 @@
+# 넘파이
 '''
 import numpy as np
 
@@ -14,6 +15,7 @@ print(arr3)
 print((np.e ** arr3).round(2))
 '''
 
+# 파이토치
 import torch
 import numpy as np
 

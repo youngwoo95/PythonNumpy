@@ -1,3 +1,4 @@
+# 넘파이
 '''
 import numpy as np
 
@@ -13,6 +14,7 @@ print(f"{a // b =} / {a.__floordiv__(b ) =}")
 print(f"{a % b =} / {a.__mod__(b) =}")
 '''
 
+# 파이토치
 import torch
 
 a, b = torch.tensor(10), torch.tensor(3)

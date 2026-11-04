@@ -1,3 +1,4 @@
+# 넘파이
 '''
 import numpy as np
 
@@ -17,6 +18,7 @@ print(arr2.__pos__())
 print(+arr2)
 '''
 
+# 파이토치
 import torch
 
 arr = torch.arange(-5, 6)

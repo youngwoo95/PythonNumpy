@@ -1,3 +1,4 @@
+# 넘파이
 '''
 import numpy as np
 arr = np.arange(8)
