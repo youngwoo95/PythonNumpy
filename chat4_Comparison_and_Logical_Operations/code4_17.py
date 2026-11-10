@@ -7,6 +7,7 @@ print(f"preds : {preds}")
 print(f"labels : {labels}")
 
 corrects = np.isclose(preds, labels, atol=0.02) 
+
 print(corrects)
 
 
